@@ -278,6 +278,7 @@
 
       it('should return the sum of an array of negative integers', function() {
         expect(sumBelow(-1)).to.equal(0);
+        debugger; 
         expect(sumBelow(-2)).to.equal(-1);
         expect(sumBelow(-6)).to.equal(-15);
         expect(sumBelow(-11)).to.equal(-55);
